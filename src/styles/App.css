@@ -56,9 +56,10 @@
 .title {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 400px;
-  font-size: 36px
+  left: 0;
+  width: 100%;
+  font-size: 36px;
+  text-align: left;
 }
 
 .values {
