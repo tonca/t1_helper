@@ -1,8 +1,13 @@
-# React + Vite
+# T1 diabetes helper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Type 1 diabetes is a widely spread auto-immune disease that can be quite complex and heavy to deal with on a daily basis.
 
-Currently, two official plugins are available:
+This web app aims to help a T1 diabetic with everyday life tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Currently supported features:
+- insulin pump profiles
+
+To be implemented:
+- carbohydrates proportions
+- carbohydrate in food API
+- blood/glucose simulations
