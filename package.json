@@ -2,7 +2,7 @@
   "name": "pump_profiles",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tonca.github.io/t1_helper",
+  "homepage": "https://t1-helper.istsamtonca.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
