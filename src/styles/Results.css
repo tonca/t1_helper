@@ -1,0 +1,21 @@
+.ProfileValue {
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    width: 100%;
+}
+
+.ProfileValue div {
+    justify-content: space-between;
+    align-content: center;
+}
+
+.ProfileValues span {
+    margin: 0px 8px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.ProfileValues {
+    width: 240px;
+}
