@@ -1,30 +1,3 @@
-.BaseValue {
-    display: flex;
-    justify-content: space-between;
-    height: 24px;
-    width: 100%;
-}
-
-.BaseValue div {
-    justify-content: space-between;
-    align-content: center;
-}
-
-.BaseValues span {
-    margin: 0px 8px;
-    font-weight: bold;
-    font-size: large;
-}
-
-.BaseValues input {
-    width: 40px;
-    font-size: 18px;
-}
-
-.BaseValues {
-    width: 240px;
-}
-
 .ProfileSettings {
     width: 100%;
 }

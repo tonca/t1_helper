@@ -58,6 +58,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  min-width: 375px;
   font-size: 36px;
   text-align: left;
 }
@@ -73,6 +74,10 @@
   .values {
     justify-content: space-around;
   }
+}
+
+.values p {
+  margin: 0px;
 }
 
 .settings {
