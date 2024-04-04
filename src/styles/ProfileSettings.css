@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.ProfileSettings p {
+    margin: 0px;
+}
+
 .SettingValues {
     display: block;
     margin: auto;
