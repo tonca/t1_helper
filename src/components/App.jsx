@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/App.css';
-import { BaseValues, ProfileSettings } from './Parameters.jsx'
+import ProfileSettings from './ProfileSettings.jsx'
 import Values from './Values.jsx';
 
 function App() {
