@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/App.css';
-import { BaseValues, ProfileSettings } from './Parameters.jsx'
-import ProfileValues from './Results.jsx';
+import ProfileSettings from './ProfileSettings.jsx'
+import Values from './Values.jsx';
 
 function App() {
   // State variables for parameters and insulin sensitivity
@@ -50,8 +50,7 @@ function App() {
     <div className="App">
       <div className='title'>insulin pump profiles</div>
       <div className='values'>
-        <BaseValues baseBR={baseBR} baseICR={baseICR} baseCF={baseCF} onParameterChange={handleBaseValueChange} />
-        <ProfileValues baseBR={baseBR} baseICR={baseICR} baseCF={baseCF} overallChange={overallChange} disableCorrections={disableCorrections} />
+        <Values baseBR={baseBR} baseICR={baseICR} baseCF={baseCF} onParameterChange={handleBaseValueChange} overallChange={overallChange} disableCorrections={disableCorrections} />
       </div>
       <div className='settings'>
         <ProfileSettings overallChange={overallChange} disableCorrections={disableCorrections} onParameterChange={handleProfileSettingsChange} />

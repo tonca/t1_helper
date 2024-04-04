@@ -1,52 +1,6 @@
 import React from 'react';
-import '../styles/Parameters.css';
+import '../styles/ProfileSettings.css';
 
-function BaseValues({ baseBR, baseICR, baseCF, onParameterChange }) {
-
-    return (
-        <div className="BaseValues">
-            <h2>BASE VALUES</h2>
-            <hr class='line' />
-            <div className='BaseValue'>
-                <div><p><abbr title='Basal Rate'>BR</abbr></p></div>
-                <div>
-                    <input
-                        type="number"
-                        value={baseBR}
-                        onChange={(e) => onParameterChange(e.target.value, 'basalRate')}
-                    />
-                </div>
-            </div>
-            <hr class='line' />
-            <div className='BaseValue'>
-                <div><p><abbr title='Insulin to Carbohydrate Ratio'>ICR</abbr></p></div>
-                <div>
-                    <span>1/</span>
-                    <input
-                        type="number"
-                        value={baseICR}
-                        onChange={(e) => onParameterChange(e.target.value, 'ICR')}
-                    />
-                </div>
-
-
-            </div>
-            <hr class='line' />
-            <div className='BaseValue'>
-                <div><p><abbr title='Correction Factor'>CF</abbr></p></div>
-                <div>
-                    <span>1/</span>
-                    <input
-                        type="number"
-                        value={baseCF}
-                        onChange={(e) => onParameterChange(e.target.value, 'correctionFactor')}
-                    /></div>
-            </div>
-            <hr class='line' />
-        </div>
-
-    );
-}
 
 function PresetSettings({ onParameterChange }) {
     let presets = [
@@ -137,4 +91,4 @@ function ProfileSettings({ overallChange, disableCorrections, onParameterChange 
 }
 
 
-export { BaseValues, ProfileSettings };
+export default ProfileSettings;

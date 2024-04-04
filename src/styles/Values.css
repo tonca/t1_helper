@@ -1,0 +1,42 @@
+.Values span {
+    margin: 0px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.Values input {
+    margin: 0px;
+    width: 40px;
+    font-size: 18px;
+}
+
+.Values {
+    width: 100%;
+}
+
+.Values div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.Value {
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    width: 100%;
+}
+
+.Value div {
+    display: flex;
+    width: 65px;
+    justify-content: start;
+}
+
+.Value div:nth-child(2) {
+    justify-content: center;
+}
+
+.Value div:nth-child(3) {
+    justify-content: end;
+}
