@@ -1,4 +1,4 @@
-# T1 diabetes helper
+# T1 diabetes toolbox
 
 Type 1 diabetes is a widely spread auto-immune disease that can be quite complex and heavy to deal with on a daily basis.
 
