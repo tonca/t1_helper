@@ -2,7 +2,7 @@
   "name": "pump_profiles",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://t1-helper.istsamtonca.com",
+  "homepage": "https://t1-toolbox.istsamtonca.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
