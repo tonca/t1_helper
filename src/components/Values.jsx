@@ -3,9 +3,9 @@ import '../styles/Values.css';
 
 function ProfileValues({ baseBR, baseICR, baseCF, onParameterChange, overallChange, disableCorrections }) {
     let changeRatio = 1 + overallChange / 100;
-    let profileBR = (baseBR * changeRatio).toFixed(1);
-    let profileICR = (baseICR / changeRatio).toFixed(1);
-    let profileCF = disableCorrections ? 1000 : (baseCF / changeRatio).toFixed(1);
+    let profileBR = parseFloat((baseBR * changeRatio).toFixed(3));
+    let profileICR = parseFloat((baseICR / changeRatio).toFixed(1));
+    let profileCF = parseFloat(disableCorrections ? 1000 : (baseCF / changeRatio).toFixed(1));
 
     return (
         <div className="Values">
